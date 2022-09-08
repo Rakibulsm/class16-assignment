@@ -1,0 +1,94 @@
+.header{
+    background-color: rgb(12, 12, 68);
+    position:static;
+}
+.header img{
+    width: 70px;
+    height: auto;
+    margin-top: 10px;
+   margin-left: 200px;
+}
+.menu ul{
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 2px 0;
+    border-right: #fff 1px solid;
+  
+}
+.menu ul li a{
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    transition: 1s;
+    margin-left: -4px;
+  
+}
+.menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+}
+.benner{
+    background-image: url(./img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 200px;
+    color: #fff;
+}
+.more{
+    text-align: center;
+}
+.more a{
+    background-color: blueviolet;
+    font-size: 30px;
+    border: #fff 1px solid;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.more a:hover{
+    background-color:#F5B041 ;
+}
+.bennar2 img{
+    width: 150px;
+    height: 220px;
+    margin-left:65px;
+    padding: 10px 0;
+}
+
+.bennar-section{
+    background-color: #CCCCFF;
+}
+.img-size{
+    height: 150px;
+    width: auto;
+}
+
+
+/* .about-section */
+
+
+.about-section{
+    background-color:#AED6F1;
+}
+
+
+.about-section p,span{
+    font-size: 15px;
+}
+
+/* footer */
+.footer-section{
+    background-color: #808080;
+    color: #fff;
+    font-size: 20px;
+}
